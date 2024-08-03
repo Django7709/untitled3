@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
         System.out.println();
         var dog = 8.0;
@@ -34,7 +33,7 @@ public class Main {
         friend = friend + 2;
         System.out.println(friend);
         friend = friend / 2;
-        System.out.println(friend):
+        System.out.println(friend);
 
         System.out.println();
         var frog = 3.5;
@@ -49,31 +48,26 @@ public class Main {
         System.out.println();
         var oneBoxerWheight = 78.2;
         var twoBoxerWheight = 82.7;
-        var result = oneBoxerWheight + twoBoxerWheight:
+        var result = oneBoxerWheight + twoBoxerWheight;
         System.out.println(result);
 
         System.out.println();
-        var oneBoxerWheight = 78.2;
-        var twoBoxerWheight = 82.7;
-        var result = twoBoxerWheight - oneBoxerWheight:
         System.out.println("Разница между весами" + result);
 
         System.out.println();
-        var oneBoxerWheight = 78.2;
-        var twoBoxerWheight = 82.7;
-        var result = twoBoxerWheight % oneBoxerWheight:
+        var resultDyf = twoBoxerWheight % oneBoxerWheight;
         System.out.println("Остаток от деления" + result);
 
         System.out.println();
-        var X = 640:
-        var Y = 8:
-        var result = X / Y:
+        var x = 640;
+        var y = 8;
+        var result1 = x / y;
         System.out.println("Всего работников в компании" + result);
 
         System.out.println();
-        var x = 80 + 94:
-        var y = 640:
-        var result = y / x:
+        var x1 = 80 + 94;
+        var y2 = 640;
+        var result2 = y / x;
         System.out.println("Если в компании работает" + x + "человек, то всего" + result + "часов работы может быть поделено между сотрудниками");
     }
 }
